@@ -20,7 +20,7 @@ function check(){
         if(signEmail.value == array[i].Email || signPassword.value == array[i].password){
             let x = array[i].Name;
             localStorage.setItem('userName', x);
-            location.href =`../../Home/index.html`;
+            location.href =`../Home/index.html`;
         }
     }
 }
