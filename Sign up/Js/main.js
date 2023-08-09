@@ -19,7 +19,7 @@ function signUp(){
             password:signPassword
         }
         array.push(obj);
-        location.href = `../../Login/index.html`
+        location.href = `../Login/index.html`
         localStorage.setItem('sign', JSON.stringify(array))
         
     }
